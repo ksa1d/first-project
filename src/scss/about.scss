@@ -1,0 +1,74 @@
+.about-us{
+  background: #F6F6F8;
+  padding: 100px 0 70px;
+  &__line{
+    border-top: 1px solid grey;
+    margin: 90px 0 120px;
+  }
+    .textBlock{
+      padding-top: 52px;
+      &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+
+        /* dark */
+
+        color: #323232;
+        margin-bottom: 40px;
+        max-width: 440px;
+      }
+      &__descr{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+
+        /* grey */
+
+        color: #999999;
+        margin-bottom: 30px;
+      }
+      &__link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        text-decoration-line: underline;
+
+        /* Accent */
+
+        color: #4985FF;
+      }
+    }
+    .imgBlock{
+       text-align: right;
+     }
+  &__info{
+    padding: 0 100px;
+    .info{
+      max-width: 105px;
+      &__num{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 53px;
+
+        color: #000000;
+      }
+      &__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+
+        /* grey */
+
+        color: #999999;
+      }
+    }
+  }
+}

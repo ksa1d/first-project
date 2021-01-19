@@ -1,0 +1,32 @@
+.home {
+  padding: 319px 0 335px;
+  background: url("../image/home/bg.png.png") center/cover;
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  &__suptitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+   @include btns;
+  }
+}

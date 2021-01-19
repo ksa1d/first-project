@@ -1,0 +1,19 @@
+@mixin btns {
+  width: 200px;
+  height: 45px;
+  border: none;
+  background: #4985FF;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  display: block;
+  color: #FFFFFF;
+  margin: 0 auto;
+  cursor: pointer;
+  outline: none;
+}

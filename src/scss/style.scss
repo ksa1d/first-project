@@ -1,0 +1,31 @@
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+@import "../css/jquery.fancybox.min.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  font-family: "Montserrat",sans-serif;
+}
+
+@import "btn";
+@import "header";
+@import "home";
+@import "services";
+@import "about";
+@import "all-services";
+@import "all-projects";
+@import "video";
+@import "subcribe";
+@import "footer";
+
+
+
+

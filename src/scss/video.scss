@@ -1,0 +1,43 @@
+.video{
+  padding: 70px 0 85px;
+  background: url("../image/video/video.png") no-repeat;
+  text-align: center;
+  &__line{
+    border: 1px solid #E0E0E0;
+    margin: 85px;
+  }
+
+  &__btn{
+    display: inline-block;
+    margin-top: 180px;
+  }
+  &__img{
+    text-align: center;
+    background: url("../image/video/phons.png");
+    width: 970px;
+    height: 430px;
+    margin: 0 auto;
+  }
+  &__text{
+    h2{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 53px;
+      text-align: center;
+
+      color: #FFFFFF;
+      margin-bottom: 30px;
+    }
+    p{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+
+      color: #FFFFFF;
+      margin-bottom: 70px;
+    }
+  }
+}
